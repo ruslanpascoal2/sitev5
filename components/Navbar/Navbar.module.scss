@@ -1,0 +1,26 @@
+@import "../../styles/variables.scss";
+
+.navbar{
+    width: 100vw;
+    border-bottom: 4px solid $pink;
+    @apply h-40 lg:h-20;
+}
+
+.logo{
+    color: $off-white;
+    cursor: pointer;
+    &:hover{
+        color: $off-white;
+    }
+}
+
+.links{
+    color: $off-white;
+    @apply flex space-x-4 lg:space-x-10;
+    li{
+        cursor: pointer;
+        &:hover{
+            color: $yellow;
+        }
+    }
+}
